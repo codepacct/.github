@@ -1,0 +1,2 @@
+# .github
+Codepact organization profile.
