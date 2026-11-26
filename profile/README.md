@@ -25,8 +25,8 @@ repository's README for setup, current capabilities, and known limitations.
 The tools use lexical analysis rather than a full Rust compiler frontend. A
 clean report does not establish that a contract is secure or that every Rust
 expression was analyzed. Review the documented limitations before making the
-checks mandatory. Baseline support is [planned](https://github.com/codepacct/codepact-core/issues/1),
-not yet available on the default branch.
+checks mandatory. The Core CLI supports reviewed baselines for incremental adoption; the Action
+does not yet support them. See [Action baseline support](https://github.com/codepacct/codepact-action/issues/10).
 
 ## Contributing
 
